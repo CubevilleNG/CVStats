@@ -1,6 +1,6 @@
 package org.cubeville.cvstats.commands;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.cubeville.cvstats.leaderboards.LeaderboardSortBy;
 import org.cubeville.cvstats.leaderboards.LeaderboardValueFormat;
 

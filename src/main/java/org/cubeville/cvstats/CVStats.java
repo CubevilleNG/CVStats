@@ -2,9 +2,6 @@ package org.cubeville.cvstats;
 
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.player.PlayerLoginEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.cubeville.cvstats.commands.CommandHandler;
 import org.cubeville.cvstats.database.StatsDB;
@@ -13,7 +10,6 @@ import org.cubeville.cvstats.leaderboards.LeaderboardManager;
 
 import java.io.IOException;
 import java.util.Map;
-import java.util.UUID;
 import java.util.regex.Pattern;
 
 public final class CVStats extends JavaPlugin implements CommandExecutor {
