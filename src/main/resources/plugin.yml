@@ -1,7 +1,7 @@
 name: CVStats
-version: 1.20
+version: 1.21.8
 main: org.cubeville.cvstats.CVStats
-api-version: 1.20
+api-version: 1.21.8
 prefix: CVStats
 authors: [ Ptown16 ]
 description: A plugin used to log analytics for Cubeville
